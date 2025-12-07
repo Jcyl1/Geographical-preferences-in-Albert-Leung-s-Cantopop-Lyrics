@@ -23,7 +23,7 @@ Thus this project applies Named Entity Recognition (NER) to analyse geographical
     * **Statistical Analysis**: Bar charts illustrating the frequency of top locations.
     * **Word Clouds**: Visualizing the "geographic atmosphere" of the lyrics.
 * **Interactive GIS Mapping**: 
-    * Integration with **Google Earth (KML)** for precise manual geocoding.
+    * Integration with **Google Earth** for precise manual geocoding.
     * Generation of an **Interactive Web Map** using `Folium`.
     * **Color-coded Clustering**: Red markers for Japan (Travel) vs. Orange markers for Hong Kong (Home), complete with lyric snippets in pop-ups.
 
