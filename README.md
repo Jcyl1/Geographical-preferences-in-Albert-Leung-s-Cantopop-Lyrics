@@ -11,7 +11,7 @@ Thus this project applies Named Entity Recognition (NER) to analyse geographical
 ## 🛠️ Methodlogy
 
 * **Prepare training data**: Create a training data comprising 40 representative songs that feature locations by other Hong Kong lyricists. This dataset was split, tagged and converted to BERT’s input format, using a Bert-base-Chinese model for fine-tuning.
-* **Prepare predicting data**: Collect a testing data of over 1,000 Cantopo Lyrics of Albert Leung(林夕) via Python-based web scraping on Feitsui Lyric ([https://www.feitsui.com]) and then clean the data to remove irrelevant content, aiming to retain only the actual lyrics.
+* **Prepare predicting data**: Collect a testing data of over 1,000 Cantopo Lyrics of Albert Leung(林夕) via Python-based web scraping on Feitsui Lyric [https://www.feitsui.com] and then clean the data to remove irrelevant content, aiming to retain only the actual lyrics.
 * **Fine-tuned NER model with training data**: Segment the testing data uses line-by-line processing.
 * **Visualization**: Count the recognized entities and do visualisations basde on preliminary analysis, including a bar chart, a word cloud and a map.
 
